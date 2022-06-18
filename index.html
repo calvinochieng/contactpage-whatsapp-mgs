@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WhatsApp Contact Form Direct Inbox Message</title>
+    <style>
+    html,body{
+        font-family: 'Montserrat', sans-serif;
+        background: #fff;
+      }
+  </style>
+</head>
+<body>
+    <section class="hero" id="contact">
+            <div class="hero-body is-flex-direction-column"> 
+                <h3 class="is-size-2 has-text-bold has-text-white mb-4 has-text-weight-bold under-line">Lets Create For You</h3>
+                <p class="subtitle mt-0 is-size-4 has-text-white ">
+                    Please describe your website design here. Include your name or comapany name and contact info below
+                </p>
+                <div class="form">
+                    <div class="field">
+                        <textarea itemid="" placeholder="Please describe your website design here. Include your name or comapany name and contact info" name="content" cols="40" rows="5" maxlength="500" required="" id="msg" spellcheck="true" class="textarea input"></textarea>
+                    </div>
+                    <div class="is-flex is-flex-direction-column is-align-items-center mt-5 is-justify-content-start">
+                        <button class="button is-large mr-5  is-danger order-button" onclick="var para = document.getElementById('msg').value;window.open(`https://wa.me/+254714236865/?text=awwzappmsg-${encodeURI(para)}`);">SEND WhatsApp</button>
+                        <a href="tell:+254714236865" class=" is-size-4  is-flex mt-5" >
+                            <span class="icon is-medium  has-text-info">
+                                <i class="fa fa-phone "></i>
+                            </span> 
+                            <span class="pl-3 has-text-white">+254714236865</span>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+        </section> 
+</body>
+</html>
+       
